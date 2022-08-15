@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		".current {\n    color: green;\n}\n\na {\n    text-decoration: none;\n    \n}\n\n/* Box sizing rules */\n*,\n*::before,\n*::after {\n  box-sizing: border-box;\n}\n\n/* Remove default margin */\nbody,\nh1,\nh2,\nh3,\nh4,\np,\nfigure,\nblockquote,\ndl,\ndd {\n  margin: 0;\n}\n\n/* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */\nul[role='list'],\nol[role='list'] {\n  list-style: none;\n}\n\n/* Set core root defaults */\nhtml:focus-within {\n  scroll-behavior: smooth;\n}\n\n/* Set core body defaults */\nbody {\n  min-height: 100vh;\n  text-rendering: optimizeSpeed;\n  line-height: 1.5;\n}\n\n/* A elements that don't have a class get default styles */\na:not([class]) {\n  text-decoration-skip-ink: auto;\n}\n\n/* Make images easier to work with */\nimg,\npicture {\n  max-width: 100%;\n  display: block;\n}\n\n/* Inherit fonts for inputs and buttons */\ninput,\nbutton,\ntextarea,\nselect {\n  font: inherit;\n}\n\n/* Remove all animations, transitions and smooth scroll for people that prefer not to see them */\n@media (prefers-reduced-motion: reduce) {\n  html:focus-within {\n   scroll-behavior: auto;\n  }\n  \n  *,\n  *::before,\n  *::after {\n    animation-duration: 0.01ms !important;\n    animation-iteration-count: 1 !important;\n    transition-duration: 0.01ms !important;\n    scroll-behavior: auto !important;\n  }\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,QAAQ,CAAC,EACL,KAAK,EAAE,KAAK,GACf;;AAED,AAAA,CAAC,CAAC,EACE,eAAe,EAAE,IAAI,GAExB;;AAED,sBAAsB;AACtB,AAAA,CAAC,EACD,CAAC,EAAE,MAAM,EACT,CAAC,EAAE,KAAK,CAAC,EACP,UAAU,EAAE,UAAU,GACvB;;AAED,2BAA2B;AAC3B,AAAA,IAAI,EACJ,EAAE,EACF,EAAE,EACF,EAAE,EACF,EAAE,EACF,CAAC,EACD,MAAM,EACN,UAAU,EACV,EAAE,EACF,EAAE,CAAC,EACD,MAAM,EAAE,CAAC,GACV;;AAED,4GAA4G;AAC5G,AAAA,EAAE,CAAA,AAAA,IAAC,CAAK,MAAM,AAAX,GACH,EAAE,CAAA,AAAA,IAAC,CAAK,MAAM,AAAX,EAAa,EACd,UAAU,EAAE,IAAI,GACjB;;AAED,4BAA4B;AAC5B,AAAA,IAAI,CAAC,YAAY,CAAC,EAChB,eAAe,EAAE,MAAM,GACxB;;AAED,4BAA4B;AAC5B,AAAA,IAAI,CAAC,EACH,UAAU,EAAE,KAAK,EACjB,cAAc,EAAE,aAAa,EAC7B,WAAW,EAAE,GAAG,GACjB;;AAED,2DAA2D;AAC3D,AAAA,CAAC,CAAA,GAAK,EAAA,AAAA,KAAC,AAAA,GAAQ,EACb,wBAAwB,EAAE,IAAI,GAC/B;;AAED,qCAAqC;AACrC,AAAA,GAAG,EACH,OAAO,CAAC,EACN,SAAS,EAAE,IAAI,EACf,OAAO,EAAE,KAAK,GACf;;AAED,0CAA0C;AAC1C,AAAA,KAAK,EACL,MAAM,EACN,QAAQ,EACR,MAAM,CAAC,EACL,IAAI,EAAE,OAAO,GACd;;AAED,iGAAiG;AACjG,MAAM,iCACJ,GAAA,AAAA,IAAI,CAAC,YAAY,CAAC,EACjB,eAAe,EAAE,IAAI,GACrB,CAED,AAAA,CAAC,EACD,CAAC,EAAE,MAAM,EACT,CAAC,EAAE,KAAK,CAAC,EACP,kBAAkB,EAAE,iBAAiB,EACrC,yBAAyB,EAAE,YAAY,EACvC,mBAAmB,EAAE,iBAAiB,EACtC,eAAe,EAAE,eAAe,GACjC,EATA"
+}
